@@ -1,0 +1,9 @@
+# 오늘 한 일
+- Kakao Brain에서 공개한 Ko-Sentence BERT를 사용하였다.  
+기존에 Ko-Sentence BERT를 사용했었는데 알고보니 Embedding 할 때 사용한 모델이 구글에서 공개한 Multilingual 모델이였다.(https://github.com/BM-K/KoSentenceBERT)  
+그래서 ETRI에서 공개한 KoBERT를 사용한 모델과 SKT에서 발표한 KoBERT를 사용해 학습한 모델을 사용하려 했다.  
+git을 불러온 후, requirement.txt 파일에 맞게 환경설정한다.
+나는 conda 가상환경을 사용했는데 conda 환경의 site-packages에 transformers, sentence_transformer, tokenizer 폴더를 옮기는게 핵심이다.
+
+- 챗봇의 전반적인 구현 흐름과 트렌드를 알게 되었다.
+그 중심속에서 내가 해야할 일가 앞으로 나아가야 할방향도 어느정도 알게 되었다.
